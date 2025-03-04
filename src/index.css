@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+.theNav{
+    background-color: #865DFF;
+}
+
+.productContainer{
+    background-color: #E384FF10;
+}
+
+.addCart{
+    transform: translateY(-3px);
+    transition: transform 0.15s;
+}
+
+.addCart:hover{
+    transform: translateY(0px);
+}
