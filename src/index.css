@@ -6,13 +6,25 @@
 
 .productContainer{
     background-color: #E384FF10;
+    outline: 2px solid black;
 }
 
 .addCart{
     transform: translateY(-3px);
     transition: transform 0.15s;
+    outline: 2px solid black;
 }
 
 .addCart:hover{
     transform: translateY(0px);
+}
+
+.cartPic{
+    position: relative;
+}
+
+.countCart{
+    position: absolute;
+    top: -5px;
+    right: -10px
 }
