@@ -1,7 +1,12 @@
 @import "tailwindcss";
+@import "bootstrap-icons/font/bootstrap-icons.css";
 
 .theNav{
     background-color: #865DFF;
+}
+
+.logo{
+    width: 70%;
 }
 
 .productContainer{
@@ -25,6 +30,6 @@
 
 .countCart{
     position: absolute;
-    top: -5px;
-    right: -10px
+    top: 0;
+    right: -10px;
 }
